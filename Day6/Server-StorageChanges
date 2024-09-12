@@ -1,0 +1,12 @@
+Commited today
+610e438188fb3338df0ab4135a75ebfe46585264
+2b2192ad21ef9fe52c33555dd6562a2fca7b9edf
+3aad9225a8d6994ce4c7bf080f2bfb9738ae5b1b
+
+link: https://github.com/Lordofblueflame/Server-Storage/tree/Develop
+
+List of changes
+
+- New version of boost 1.86, path changed from X:\\ to C:\\. better exception handling, Json_data constructor fixed.
+- Frontend and small logical changes for callback function to change directories.
+- Chaning the way that path is found in objects to make it more precise and less error prone
