@@ -1,5 +1,6 @@
 #include <vector>
 #include <utility>
+#include <algorithm>
 
 class MyCalendarTwo {
 private:
