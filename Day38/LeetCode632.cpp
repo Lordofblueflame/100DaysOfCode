@@ -57,7 +57,7 @@
 #include <limits>
 #include <iostream>
 
-using tuple = tuple;
+using tuple = std::tuple<int, int, int>;
 
 class Solution {
 public:
