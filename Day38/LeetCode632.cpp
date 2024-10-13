@@ -57,7 +57,7 @@
 #include <limits>
 #include <iostream>
 
-using tuple = std::tuple<int, int, int>;
+using tuple = tuple;
 
 class Solution {
 public:
@@ -108,7 +108,7 @@ public:
     }
     private:
     void printHeap(const std::priority_queue<tuple, std::vector<tuple>, std::greater<tuple>>& minHeap) {
-        std::priority_queue<std::tuple<int, int, int>, std::vector<std::tuple<int, int, int>>, std::greater<std::tuple<int, int, int>>> tempHeap = minHeap;
+        std::priority_queue<tuple, std::vector<tuple>, std::greater<tuple>> tempHeap = minHeap;
 
         std::cout << "[ ";
         while (!tempHeap.empty()) {
